@@ -7,7 +7,11 @@ A Frappe App to setup and manage single page applications and custom desk pages 
 In your bench directory:
 
 ```bash
-bench get-app https://github.com/NagariaHussain/doppio
+bench get-app https://github.com/github-nqvnlc/windify-frappe.git
+```
+
+```bash
+bench --site <site.name> install-app doppio
 ```
 
 This will install the `Doppio` frappe app on your bench and enable some custom bench CLI commands
